@@ -12,7 +12,7 @@
 #keyboardMsg{ float: right; }
 #closeButton{ top: 5px; right: 5px; }
 
-#lightbox img{ border: none; clear: both;} 
+#lightbox img{ border: none; clear: both; max-width: 100%} 
 #overlay img{ border: none; }
 
 #overlay{ background-image: url(overlay.png); }

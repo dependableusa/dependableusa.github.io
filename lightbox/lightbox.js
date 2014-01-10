@@ -203,7 +203,8 @@ function showLightbox(objLink)
 		objLightbox.style.left = (lightboxLeft < 0) ? "0px" : lightboxLeft + "px";
 
 
-		objLightboxDetails.style.width = imgPreload.width + 'px';
+		// Commented out to try to prevent over-zoom.
+		// objLightboxDetails.style.width = imgPreload.width + 'px';
 		
 		if(objLink.getAttribute('title')){
 			objCaption.style.display = 'block';
